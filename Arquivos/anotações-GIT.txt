@@ -1,0 +1,25 @@
+INICIAÇÃO AO GIT
+
+-git clone- usar link para que ele encontre o local em que
+o projeto se encontra.
+  *colar com paste*
+
+-cd-procura o projeto onde seus arquivos serão salvos
+
+-git status- verificar quais arquivos serão e estão salvos salvos na nuvem do gitHub.
+
+-git add- adiciona os arquivos ao projeto no GITHUB
+- git add *- salva TODOS os arquivos ao projeto do GITHUB.
+
+-git commit- "consolidar"- utilizado para criar uma copia digital LOCAL
+ permite que você adicone uma descrição, para que seja mais facil
+diferenciar as versões salvas.
+
+-git push- envia seus dados a nuvem.
+
+-git pull- puxar os arquivos da nuvem
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+max-width 1366px.
+max-width 768px.
+max-width 360px.
