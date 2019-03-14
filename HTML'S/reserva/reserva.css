@@ -1,0 +1,115 @@
+.container{
+    position: relative;
+    width: 100vh;
+    height: 87vh;
+}
+.slider{
+    overflow: hidden;
+    position: absolute;
+    top: 13vh;;
+    left: 0;
+    width: 500%;
+    height: 87vh;
+    animation: animate 10s;
+}
+.slide{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.caption{
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    right: 60px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, .5)
+}
+.caption h2{
+    margin: 0 0 20px;
+    color: #fff;
+    font-size: 48px;
+}
+.caption p{
+    color: #fff;
+    font-size: 30px;
+}
+.slide1{
+    background: url(img/alx_pessoas-usando-computador-20141123-03_original3\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.slide2{
+    background: url(img/alx_pessoas-usando-computador-20141123-03_original3\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.slide3{
+    background: url(img/alx_pessoas-usando-computador-20141123-03_original3\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.slide4{
+    background: url(img/alx_pessoas-usando-computador-20141123-03_original3\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+@keyframes animate {
+    0%
+    {
+        left: 0;
+    }
+    20%
+    {
+        left: 0;
+    }
+    25%
+    {
+        left: -100%;
+    }
+    45%
+    {
+        left: -100%;
+    }
+    50%
+    {
+        left: -200%;
+    }
+    70%
+    {
+        left: -200%;
+    }
+    75%
+    {
+        left: -300%;
+    }
+    95%
+    {
+        left: -300%;
+    }
+    100%
+    {
+        left: -400%;
+    }
+}
+@media (max-width: 1366px)
+{
+    .caption{
+        position: absolute;
+        bottom: 60px;
+        left: 60px;
+        right: 60px;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, .5)
+    }
+    .caption h2{
+        margin: 0 0 20px;
+        color: #fff;
+        font-size: 48px;
+    }
+    .caption p{
+        color: #fff;
+        font-size: 30px;
+    }
+}

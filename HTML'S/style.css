@@ -7,10 +7,10 @@
 }
 nav{
     font-family: "Sui Generis", bold;
-    background-color:#fff;
+    background-color: #fff;
     width: 100%;
     height: 13vh;
- 
+    z-index: 99999;
 }
 nav > ul{
     display: flex;
@@ -21,8 +21,8 @@ nav > ul{
     font-size: 1.5em;
 }
 .logo{
-      height: 13vh; 
-      padding-top: 5px;
+    height: 13vh;
+    padding-top: 5px;
 }
 .especial{
     display: flex;
@@ -34,14 +34,16 @@ nav > ul{
     height: 13vh;
     text-align: center;
     font-size: 0.9em;
+    align-items: center;
 }
 .destaque{
+    width: 90%;
     color: #000;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 1.1em;
-    padding-right: 20px;
-    padding-left: 20px;  
+    padding-right: 15px;
+    padding-left: 15px;
     margin-bottom: 15px;
 }
 .idiomas{
@@ -50,18 +52,125 @@ nav > ul{
 }
 .login{
     text-transform: uppercase;
-    font-size: 1.em;
+    font-size: 1em;
     background-color: #00347f;
     color: #fff;
     border-radius: 5px;
     padding: 5px;
     padding-right: 25px;
-    padding-left: 25px;  
+    padding-left: 25px;
 }
 #escolha_lingua{
     background-color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
-    padding-left: 15px; 
+    padding-left: 15px;
+    border: none;
+    font-family: "Sui Generis", bold;
+    font-size: 0.7em;
+}
+/* fim nav */
+.banner{
+    height: 87vh;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    width: 70%;
+    height: 0;
+    padding-bottom: 40%;
+    background-color: #4c4c4c;
+    border: solid 10px #005eb9;
+    border-radius: 5px;
+}
+.slide_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slide_img img{
+    width: 100%;
+    height: 100%;
+}
+#i1, #i2, #i3{
+    display: none;
+}
+.pre, .nxt{
+    margin-top: 25%;
+    width: 12%;
+    height: 15%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(88, 88, 88, 100);
+    z-index: 99;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.pre{
+left: 0;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;
+}
+.nxt{
+right: 0;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+.dot{
+    width: 100%;
+    height: 11px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+.dotos{
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(0, 0, 0, .6);
+    
+}
+.slide_img{
+   z-index: -1;
+}
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three{
+    z-index: 9;
+}
+#i1:checked ~ .dot #dot1,
+#i2:checked ~ .dot #dot2,
+#i3:checked ~ .dot #dot3{
+background-color: #fff
+}
+/* fim slider */
+.beneficios{
+    margin-top: 10vh;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+}
+.vantagens{
+    height: 50%;
+    width: 100%;
+    background-color: #003b89;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#textinhos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    justify-content: space-around;
+}
+.imagens img{
+    width: 10vh;
 }

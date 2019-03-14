@@ -2,39 +2,87 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Ponto Digital</title>
         <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <nav>
-            <ul class="nav">
-                <li > <img class="logo" src="IMG/logo.png" alt="logo ponto Digital"></li>
-                <li><a>Produto</a></li>
-                <li><a>Benefícios</a></li>
-                <li><a>Funções</a></li>
-                <li><a>Planos</a></li>
-                <li><a>Quem Somos</a></li>
-                <li><a>Depoimentos</a></li>
-                <li class="especial">
-                <div>
-                <p>Telefone: </p>
-                <p>99999-9999</p> 
-                </div>
-                <div>
-                <a class="destaque">Assine já</a></li>
-                </div>
-                    <li><a class="login">Login</a></li>
-                <li class="idiomas"><a>Idiomas</a>
-                <div class="box">
-                    <select id="escolha_lingua">
-                        <option value="PT-BR">PT-BR</option>
-                        <option value="ENG">ENG</option>
-                    </select></li>
-                </div>
-            </ul>
-        </nav>
-        <section>
+        <header>
+            <nav>
+                <ul class="Nav">
+                    <li><img class="logo" src="IMG/logo.png" alt="Logo do ponto digital"></li>
+                    <li><a>Produto</a></li>
+                    <li><a>Benefícios</a></li>
+                    <li><a>Funções</a></li>
+                    <li><a>Planos</a></li>
+                    <li><a>Quem Somos</a></li>
+                    <li><a>Depoimentos</a></li>
+                    <li class="especial">
+                        <div>
+                            <p>telefone:</p>
+                            <p>99999-9999</p>
+                        </div>
+                        <a class="destaque">Assine Já</a>
+                        <li><a class="login">Login</a></li>
+                        <li class="idiomas">
+                            <a>idiomas</a>
+                            <div class="box">
+                                <select id="escolha_lingua">
+                                    <option value="Pt-br">PT-BR</option>
+                                    <option value="ENG">ENG</option>
+                                </select>
+                            </div>
+                        </li>
+                    </li>
+                </ul>
+            </nav>
+        </header>  
+        <div class="banner">
+
+            <div class="container">
+            <input type="radio" name="images" id="i1" checked>
+            <input type="radio" name="images" id="i2" >
+            <input type="radio" name="images" id="i3" >
             
-        </section>
+            <div class="slide_img" id="one">
+                <img src="IMG/ba0a2d48-o-que-dizer-na-ultima-reuniao-do-ano.jpg" alt="reunião empresarial">
+                <label for="i3" class="pre"></label>
+                <label for="i2" class="nxt"></label>
+            </div>
+            <div class="slide_img" id="two">
+                <img src="IMG/ba0a2d48-o-que-dizer-na-ultima-reuniao-do-ano.jpg" alt="reunião empresarial">
+                <label for="i1" class="pre"></label>
+                <label for="i3" class="nxt"></label>
+            </div>
+            <div class="slide_img" id="three">
+                <img src="IMG/facebook-perde-valor-na-bolsa-de-620x284.jpg" alt="reunião empresarial">
+                <label for="i2" class="pre"></label>
+                <label for="i1" class="nxt"></label>
+            </div>
+            <div class="dot">
+                <label class="dotos" id="dot1" for="i1" ></label>
+                <label class="dotos" id="dot2" for="i2" ></label>
+                <label class="dotos" id="dot3" for="i3" ></label>
+            </div>
+        </div>
+    </div>
+    <!-- fim slider -->
+    <section class="beneficios">
+        <div class="vantagens">
+
+            <div id="textinhos">
+                <p>O ponto digital em sua versão basica possui integração com o Relogio de ponto. O planos pagos são acessíveis a qualquer empresa e promovem o retorno imediato sobre o seu investimento</p>
+                <a>conheça Nossos planos</a>
+            </div>
+            <div class="imagens">
+                <img src="IMG/image.png" alt="">
+                <img src="IMG/certo.png" alt="">
+                <img src="IMG/repIDClass-img1.png" alt="">
+                <img src="IMG/interaja.png" alt="">
+            </div>
+                
+        </div>
+        <div class="funções">
+
+        </div>
+    </section>
     </body>
 </html>

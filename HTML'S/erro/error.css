@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    font-family: "Sui Generis", bold;
+    background-color:#fff;
+    width: 100%;
+    height: 13vh;
+    position: fixed;
+    z-index: 99999;
+ 
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 13vh;
+    align-items: center;
+    font-size: 1.5em;
+}
+.logo{
+      height: 13vh; 
+      padding-top: 5px;
+}
+.especial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #00347f;
+    width: 20vh;
+    height: 13vh;
+    text-align: center;
+    font-size: 0.9em;
+}
+.destaque{
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 1.1em;
+    padding-right: 20px;
+    padding-left: 20px;  
+    margin-bottom: 15px;
+}
+.idiomas{
+    width: 15vh;
+    text-align: center;
+}
+.login{
+    text-transform: uppercase;
+    font-size: 1.em;
+    background-color: #00347f;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 25px;
+    padding-left: 25px;  
+}
+#escolha_lingua{
+    background-color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px; 
+    border: none;
+    font-family: "Sui Generis", bold;
+    font-size: 1.1em;
+}
+/* fim NAV */
+.container{
+    height: 87vh;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    width: 70%;
+    height: 0;
+    padding-bottom: 40%;
+    background-color: #4c4c4c;
+    border: solid 10px #2c2c2c;
+}
