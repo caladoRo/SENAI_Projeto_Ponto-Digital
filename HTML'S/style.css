@@ -289,6 +289,56 @@ background-color: #fff
     font-size: 0.7em;
 }
 /* acabei mais uma parte */
+.duvida{
+    height: 70vh;
+    background-color: #004698;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.isso{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+.caixa_de_texto{
+    background-color: #fff;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 10px #000;
+}
+.caixa_de_texto img{
+    border: solid 2px #000;
+}
+.palavras{
+    height: 90%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.palavras h3{
+    font-size: 2em;
+}
+.palavras p{
+    font-size: 1.5em;
+    margin-top: 5vh;
+}
+.duvida a{
+    font-size: 2em;
+    background-color: #f2a620;
+    box-shadow: 0 2px 6px #000000;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+/*  */
+/* a */
 .local{
     height: 100vh;
 }
@@ -299,7 +349,6 @@ background-color: #fff
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
-   
 }
 .oi{
     width: 20%;
@@ -338,4 +387,33 @@ background-color: #fff
 .mapinha{
     border: solid 10px #005eb9;
     border-radius: 10px;
+}
+.quem{
+    height: 60vh;
+    width: 100%;
+}
+.pai{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.lorem{
+    width: 40%;
+    font-size: 1.5em;
+    height: 70%;
+}
+.pessoas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imaginha{
+    height: 150px;
+}
+.profs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5em;
 }
